@@ -8,7 +8,7 @@ On the back end a firestore database is hosted on Firebase while [Materialize](h
 
 - Clone project
 - Install dependencies `npm install` or `yarn install`
-- Set up a (firestore database)[https://firebase.google.com/docs/firestore/quickstart]
+- Set up a [firestore database](https://firebase.google.com/docs/firestore/quickstart)
 - Set up a `src/firebase/init.js` file with the following contents:
 ```
 import firebase from 'firebase'
