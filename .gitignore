@@ -13,3 +13,4 @@ yarn-error.log*
 *.njsproj
 *.sln
 .firebaserc
+src/firebase/init.js
