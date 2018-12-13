@@ -1,21 +1,19 @@
-# oreon-smoothies
+# Oreon Smoothies
 
-> Create smoothies
+Simple CRUD application using Vue.js for managing smoothies. 
 
-## Build Setup
+On the back end a firestore database is hosted on Firebase while [Materialize](https://materializecss.com/) is used as the Material Design CSS framework 
 
-``` bash
-# install dependencies
-npm install
+## Local setup
 
-# serve with hot reload at localhost:8080
-npm run dev
+- Clone project
+- Install dependencies `npm install` or `yarn install`
+- Serve with hot reload at `localhost:8080` with `npm run dev` or `yarn dev`
+- Build for production with `npm run build` or `yarn build`
 
-# build for production with minification
-npm run build
+## Live project
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+A live version of the project can be interacted with at https://udemy-oreon-smoothies.firebaseapp.com/
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+As this is just a pet project of mine, no authentication is included and you're free to add/delete/edit smoothies  
+However, please do be mindful when adding smoothies that you're not creating a massive amount of them
