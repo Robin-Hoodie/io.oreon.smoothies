@@ -17,10 +17,12 @@ const config = {
   //You can find this config in your firebase console under 'General Settings' -- 'Add Firebase to your Webapp'
 };
 
+
+const firebaseApp = firebase.initializeApp(config);
 firebaseApp.firestore().settings({
   timestampsInSnapshots: true
 });
-firebase.initializeApp(config);
+export default firebaseApp.firestore();
 ```
 - Serve with hot reload at `localhost:8080` with `npm run dev` or `yarn dev`
 - Build for production with `npm run build` or `yarn build`
