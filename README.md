@@ -29,7 +29,7 @@ export default firebaseApp.firestore();
 
 ## Live project
 
-A live version of the project can be interacted with at https://udemy-oreon-smoothies.firebaseapp.com/
+A live version of the project can be interacted with at https://smoothies.oreon.io/
 
 As this is just a pet project of mine, no authentication is included and you're free to add/delete/edit smoothies  
 However, please do be mindful when adding smoothies that you're not creating a massive amount of them
