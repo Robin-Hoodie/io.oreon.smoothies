@@ -41,7 +41,6 @@
     },
     methods: {
       deleteSmoothie(id) {
-        console.log(id);
         db.collection('smoothies')
           .doc(id)
           .delete()

@@ -22,7 +22,7 @@
            @click="deleteIngredient(ingredient)">delete</i>
       </div>
       <div class="field add-ingredient">
-        <label for="add-ingredient">Add an ingredient:</label>
+        <label for="add-ingredient">Add an ingredient (tab to add):</label>
         <input id="add-ingredient"
                name="add-ingredient"
                type="text"
